@@ -42,7 +42,7 @@ Após a configuração do tema, alguns atalhos úteis para o Visual Studio Code 
 - **Abrir Loja de Extensões:** `Ctrl + Shift + X`
 - **Abrir Explorer de Arquivos:** `Ctrl + Shift + E`
 - **Abrir Source Control (GIT):** `Ctrl + Shift + G`
-- **Abrir Debugger:** `Ctrl + Shift + D`
+- **Abrir Debugger:** `Ctrl + Shift + `
 - **Debug Console:** `Ctrl + Shift + Y`
 - **Abrir Pesquisa:** `Ctrl + Shift + F`
 - **Abrir Terminal:** `Ctrl + J`
@@ -51,30 +51,30 @@ Após a configuração do tema, alguns atalhos úteis para o Visual Studio Code 
 ## Extensões do Pack
 ### Live Server
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/live-server.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/live-server.png" alt="vscode-icons" width="60%" />
 
 This extension sets up a local web server so that you can see the changes made in real-time without having to reload. It’s a must-have for web development.
 
 
 ### Prettier
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/prettier.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/prettier.png" alt="vscode-icons" width="60%" />
 
 This extension keeps your code formatted and uniform throughout.
 
 ### Eslint
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/eslint.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/eslint.png" alt="vscode-icons" width="60%" />
 
 ### EditorConfig
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/editor-config.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/editor-config.png" alt="vscode-icons" width="60%" />
 
 This plugin attempts to override user/workspace settings with settings found in .editorconfig files. No additional or vscode-specific files are required. As with any EditorConfig plugin, if root=true is not specified, EditorConfig will continue to look for an .editorconfig file outside of the project.
 
 ### HTML CSS Support
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/html-css-support.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/html-css-support.png" alt="vscode-icons" width="60%" />
 
 
 Here are a few key features this extension adds:
@@ -86,27 +86,27 @@ Here are a few key features this extension adds:
 
 ### Docker
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/docker.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/docker.png" alt="vscode-icons" width="60%" />
 
 The Docker extension makes it easy to build, manage, and deploy containerized applications from Visual Studio Code. It also provides one-click debugging of Node.js, Python, and .NET inside a container.
 
 
 ### Live Share
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/liveshare.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/liveshare.png" alt="vscode-icons" width="60%" />
 
 Real-time collaborative development from the comfort of your favorite tools
 
 ### Thunder Client
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/thunder.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/thunder.png" alt="vscode-icons" width="60%" />
 
 Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code with
 simple and clean design.
 
 ### Apollo GraphQL
 
-<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-magic-tools/master/images/apollo-graphql.png" alt="vscode-icons" width="60%" />
+<img src="https://raw.githubusercontent.com/devhijazi/vscode-devhijazi-minimalist/master/assets/apollo-graphql.png" alt="vscode-icons" width="60%" />
 
 GraphQL has the potential to create incredible developer experiences, thanks to its strongly typed schema and query language. The Apollo platform brings these possibilities to life by enhancing your editor with rich metadata from your graph API.
 
