@@ -4,6 +4,7 @@
   "displayName": "VSCode Minimalist - devHijaZi",
   "description": "An extension to auto-configure your vscode in a minimalist way, meeting all your needs",
   "author": "Gabriel Hijazi <hijazi.root@gmail.com>",
+  "publisher": "devhijazi",
   "main": "./out/extension.js",
   "icon": "assets/logo.png",
   "galleryBanner": {
