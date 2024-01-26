@@ -1,0 +1,129 @@
+{
+  "name": "devhijazi-minimalist",
+  "version": "0.0.1",
+  "displayName": "VSCode Minimalist - devHijaZi",
+  "description": "An extension to auto-configure your vscode in a minimalist way, meeting all your needs",
+  "author": "Gabriel Hijazi <hijazi.root@gmail.com>",
+  "main": "./out/extension.js",
+  "icon": "assets/logo.png",
+  "galleryBanner": {
+    "color": "#47B784",
+    "theme": "dark"
+  },
+  "repository": {
+    "url": "https://github.com/devhijazi/vscode-devhijazi-minimalist"
+  },
+  "homepage": "https://github.com/devhijazi/vscode-devhijazi-minimalist",
+  "bugs": {
+    "url": "https://github.com/devhijazi/vscode-devhijazi-minimalist/issues"
+  },
+  "keywords": [
+    "web",
+    "backend",
+    "fullstack",
+    "developer experience",
+    "auto close tag, better comments,... ",
+    "One Dark Pro",
+    "Min Theme",
+    "Material Icon Pack",
+    "Fira Code font",
+    "JetBrains Mono",
+    "ESlint",
+    "Code Metrics",
+    "Code Spell Checker",
+    "Error Lens",
+    "Import Cost",
+    "git Extension Pack",
+    "conventional commit",
+    "extension pack",
+    "git file history",
+    "git graph",
+    "git lens",
+    "HTMLHint",
+    "HTML CSS Support",
+    "Auto Rename Tag",
+    "Color Highlight",
+    "Color Info",
+    "Color Manager",
+    "CSS Navigation",
+    "Image preview",
+    "Live Server",
+    "Static server",
+    "file-size",
+    "Prettier - Code formatter",
+    "Formatting Toggle",
+    "Pretty TypeScript Errors"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "devhijazi-minimalist.activate",
+        "title": "Activate VSCode Minimalist Config"
+      },
+      {
+        "command": "devhijazi-minimalist.deactivate",
+        "title": "Deactivate VSCode Minimalist Config"
+      },
+      {
+        "command": "devhijazi-minimalist.reset",
+        "title": "Reset VSCode Minimalist Config"
+      },
+      {
+        "command": "devhijazi-minimalist.installSettings",
+        "title": "Install Settings of VSCode Minimalist Config in your settings.json of user"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "extensionPack": [
+    "publisher.extensionName",
+    "Prisma.prisma",
+    "miguelsolorio.symbols",
+    "bradlc.vscode-tailwindcss",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "drcika.apc-extension",
+    "EditorConfig.EditorConfig",
+    "ecmel.vscode-html-css",
+    "ritwickdey.LiveServer",
+    "ms-vsliveshare.vsliveshare",
+    "rangav.vscode-thunder-client",
+    "ms-azuretools.vscode-docker",
+    "icrawl.discord-vscode",
+    "adpyke.codesnap",
+    "miguelsolorio.min-theme",
+    "omthemes.omthemes",
+    "eamodio.gitlens"
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.55.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "eslint": "^7.19.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0"
+  }
+}
